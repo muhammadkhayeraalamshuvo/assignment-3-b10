@@ -184,7 +184,7 @@
         </div>
         <!-- card -->
         <div class="space-y-4">
-         <div class="flex flex-col lg:flex-row justify-center items-center gap-5">
+         <div class="flex flex-col lg:flex-row justify-center items-center gap-5 p-5 lg:p-0">
           <div class="w-[100%] lg:w-[70%] flex justify-center gap-5 rounded-lg border-2 p-5 ">
             <div class="w-[40%] lg:h-[200px]"><img src="assets/img1.png" alt="" class="h-full w-full object-cover"></div>
             <div class="w-[60%] space-y-3 items-center" >
@@ -201,10 +201,10 @@
              <div class="lg:h-[200px]"><img src="assets/img2.png" alt="" class="h-full w-full"></div>
           </div>
          </div>
-         <!-- <div class="flex gap-5">
-          <div class="w-[30%] rounded-lg border-2 p-5 "><div class="h-[200px]"><img src="assets/img2.png" alt="" class="h-full w-full"></div></div>
-          <div class="w-[60%]  flex justify-center gap-5 rounded-lg border-2 p-5">
-            <div class="w-[40%] h-[200px]"><img src="assets/img1.png" alt="" class="h-full w-full"></div>
+         <div class="flex gap-5 flex-col-reverse lg:flex-row p-5 lg:p-0">
+          <div class="w-full lg:w-[30%] rounded-lg border-2 p-5 "><div class="h-[200px]"><img src="assets/img3.png" alt="" class="h-full w-full object-cover rounded-xl"></div></div>
+          <div class="w-full lg:w-[60%]  flex justify-center gap-5 rounded-lg border-2 p-5">
+            <div class="w-[40%] h-[200px]"><img src="assets/img4.png" alt="" class="h-full w-full object-cover rounded-xl"></div>
             <div class="w-[60%] space-y-3 items-center" >
               <h2 class="font-extrabold text-2xl">Commercial</h2>
               <p>The barn house captivates with its blend of rustic charm and modern. The barn house captivates with its blend of rustic charm and modern .</p>
@@ -215,11 +215,11 @@
                </div></div>
             </div>
           </div>
-          <div class="w-[30%] rounded-lg border-2 p-5"><div class="h-[200px]"><img src="assets/img2.png" alt="" class="h-full w-full"></div></div>
-         </div> -->
+          <div class="w-full lg:w-[30%] rounded-lg border-2 p-5"><div class="h-[200px]"><img src="assets/img5.png" alt="" class="h-full w-full object-cover rounded-xl"></div></div>
+         </div>
         
       <!-- grid -->
-       <div class="grid grid-cols-1 lg:grid-cols-12 gap-3">
+       <!-- <div class="grid grid-cols-1 lg:grid-cols-12 gap-3 ">
         <div class="lg:col-span-3 rounded-2xl border-2 p-5 "> <div class="h-[200px] "><img src="assets/img3.png" alt="" class="h-full w-full"></div></div>
         <div class="flex justify-center gap-5 rounded-2xl border-2 p-5 lg:col-span-6 ">
           <div class="w-[40%] lg:h-[200px]"><img src="assets/img4.png" alt="" class="h-full w-full object-cover rounded-xl"></div>
@@ -234,7 +234,7 @@
           </div>
         </div>
         <div class="lg:col-span-3 rounded-2xl border-2 p-5 "><div class="h-[200px]"><img src="assets/img5.png" alt="" class="h-full w-full"></div></div>
-       </div>
+       </div> -->
         </div>
       </div>
      </section>
@@ -276,8 +276,46 @@
       </section>
   </main>
   
- <footer>
-  
- </footer>
+  <footer class="footer footer-center bg-black text-white p-10">
+    <aside>
+       <div class="flex justify-center items-center" >
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 text-black bg-[#ABEF5F] rounded-full text-sm p-1">
+              <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+            </svg>
+            <a class="btn btn-ghost  font-extrabold text-3xl">Rinterio</a>
+           </div>
+            
+      <p class="font-bold text-[#737373]">
+        The barn house captivates with its blend of rustic charm and modern sophistication, <br> featuring weathered wood, sleek metal accents.
+      </p>
+    
+    </aside>
+    <nav>
+      <div class="grid grid-cols-1 lg:grid-flow-col gap-3 lg:gap-10">
+        <a>
+          Home
+        </a>
+        <a>
+          Services
+        </a>
+        <a>
+          Portfolio
+        </a>
+        <a>
+          Blogs
+        </a>
+        <a>
+          Contact Us
+        </a>
+      </div>
+    </nav>
+    <div class="flex justify-center">
+      <button class="btn border-none rounded-3xl bg-[#ABEF5F] font-extrabold">Send Mail<div >
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 text-white bg-black rounded-full text-sm p-1 h-[90%] ">
+          <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+        </svg>
+       </div> </button>
+    </div>
+  </footer>
 </body>
 </html>
